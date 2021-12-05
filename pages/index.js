@@ -11,6 +11,7 @@ function HomePage() {
                 width={450}
                 height={600}
             />
+            
         </div>
     ) 
 
