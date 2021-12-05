@@ -1,11 +1,16 @@
-import headshot from '/static/Headshot_2.png'
+import Image from 'next/image';
 
 function HomePage() {
     return(
         <div>
             <h1>The Home Page</h1>
             <h3>This is just a test message</h3>
-            <img src="/static/Headshot_2.png" alt='Headshot'/>
+            <Image
+                src='/static/Headshot_2.png'
+                alt='Headshot'
+                width={450}
+                height={600}
+            />
         </div>
     ) 
 
