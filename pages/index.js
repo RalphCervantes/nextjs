@@ -1,11 +1,11 @@
-import headshot from '/home/me/Documents/Nextjs/nextjs-course/public/Headshot_2.jpg'
+import headshot from '/static/Headshot_2.png'
 
 function HomePage() {
     return(
         <div>
             <h1>The Home Page</h1>
             <h3>This is just a test message</h3>
-            <img src='../public/Headshot_2.jpg' alt='Headshot'/>
+            <img src="/static/Headshot_2.png" alt='Headshot'/>
         </div>
     ) 
 
